@@ -13,7 +13,12 @@ app.use(cors({
     "http://localhost:3000",
     "https://empower-hub.vercel.app"
   ],
+  methods: ["GET", "POST", "OPTIONS"],
+  allowedHeaders: ["Content-Type"],
 }));
+
+app.options("*", cors()); // handle preflight
+
 
 app.use(express.json());
 
