@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+
+# Optional OS-specific files
+.DS_Store
+Thumbs.db
+
+# Vercel / Netlify / Render build folders (if any)
+.vercel/
+.netlify/
+
+# Dependency lock files (optional, if you're using Yarn instead of npm)
+yarn.lock
+
+# IDEs
+.vscode/
+.idea/
+
+# Build output (if using TypeScript or bundlers)
+dist/
+build/
